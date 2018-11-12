@@ -60,11 +60,16 @@ class ViewController: UIViewController {
         // Creating the views for the stack view
         let blueView = UIView()
         blueView.backgroundColor = .blue
+        blueView.layer.cornerRadius = 10
+        
         let redView = UIView()
         redView.backgroundColor = .red
+        redView.layer.cornerRadius = 10
+
         let greenView = UIView()
         greenView.backgroundColor = .green
-        
+        greenView.layer.cornerRadius = 10
+
         // Adding the stack view with three views
         stack.addArrangedSubview(blueView)
         stack.addArrangedSubview(redView)
